@@ -1,0 +1,22 @@
+Folders:
+	css - contains styling from bootstrap
+	fonts - contains styling
+	js - used javascript to implement autocomplete (Dropdown autocompletion)
+	sql 
+		sr28abxl folder - Contains the excel file that has all the original nutitional facts
+		csc400.sql - an sql file that creates the project database. Includes tables as well as every entry
+		nutritiondb - the excel file that was formatted and imported into the database
+
+Source Code:
+	admin - the admin home page. Not fully implemented only one function was properly made. ability to create users and admins
+	adminRegistration - Page that creates user or other admins
+	autocomplete - Dropdown autocomoplete function in meals
+	"dbconnection - Local" - original name is "dbconnection" and is the php file used to connect to the database locally (WAMP)
+	"dbconnection - Server - original name is "dbconnection" and is the php file used to connect to the database in the server (LAMP)
+	home - The user's home page
+	index - The login page as well as the initial page that is opened
+	logout - the logout implementation
+	meals - The "meals" page that allows users to input foods as well as view suggestions
+	register - the registration page. Creates a user account
+	userInfo - The "Enter user information" page. Page is where the user inputs their information to create macros
+	viewUserInfo - The page where the user can view their macros, remaining macros, as well as their meal planner
